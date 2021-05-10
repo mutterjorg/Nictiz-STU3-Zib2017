@@ -59,12 +59,6 @@
         <profile value="http://nictiz.nl/fhir/StructureDefinition/observation-zibStomaReference" />
       </type>
     </element>
-    <element id="Observation.code">
-      <path value="Observation.code" />
-      <short value="BowelFunction" />
-      <definition value="Root concept of the BowelFunction information model. This root concept contains all data elements of the BowelFunction information model." />
-      <alias value="DarmFunctie" />
-    </element>
     <element id="Observation.code.coding">
       <path value="Observation.code.coding" />
       <slicing>
@@ -98,7 +92,7 @@
       <definition value="A comment on the BowelFunction." />
       <alias value="Toelichting" />
       <mapping>
-        <identity value="hcim-BowelFunction-v3.1-2017EN" />
+        <identity value="hcim-bowelfunction-v3.1-2017EN" />
         <map value="NL-CM:4.15.7" />
         <comment value="Comment" />
       </mapping>
@@ -143,7 +137,7 @@
         </valueSetReference>
       </binding>
       <mapping>
-        <identity value="hcim-BowelFunction-v3.1-2017EN" />
+        <identity value="hcim-bowelfunction-v3.1-2017EN" />
         <map value="NL-CM:4.15.2" />
         <comment value="FecalContinence" />
       </mapping>
@@ -171,7 +165,7 @@
         <code value="Quantity" />
       </type>
       <mapping>
-        <identity value="hcim-BowelFunction-v3.1-2017EN" />
+        <identity value="hcim-bowelfunction-v3.1-2017EN" />
         <map value="NL-CM:4.15.4" />
         <comment value="Frequency" />
       </mapping>
@@ -206,7 +200,7 @@
         </valueSetReference>
       </binding>
       <mapping>
-        <identity value="hcim-BowelFunction-v3.1-2017EN" />
+        <identity value="hcim-bowelfunction-v3.1-2017EN" />
         <map value="NL-CM:4.15.9" />
         <comment value="DefecationConsistency" />
       </mapping>
@@ -241,7 +235,7 @@
         </valueSetReference>
       </binding>
       <mapping>
-        <identity value="hcim-BowelFunction-v3.1-2017EN" />
+        <identity value="hcim-bowelfunction-v3.1-2017EN" />
         <map value="NL-CM:4.15.10" />
         <comment value="DefecationColor" />
       </mapping>

@@ -20,12 +20,7 @@
   <copyright value="CC0" />
   <fhirVersion value="3.0.2" />
   <mapping>
-    <identity value="hcim-basicelements-v1.0-2017EN" />
-    <uri value="https://zibs.nl/wiki/BasicElements-v1.0(2017EN)" />
-    <name value="HCIM BasicElements-v1.0(2017EN)" />
-  </mapping>
-  <mapping>
-    <identity value="hcim-IllnessPerception-v3.1-2017EN" />
+    <identity value="hcim-illnessperception-v3.1-2017EN" />
     <uri value="https://zibs.nl/wiki/IllnessPerception-v3.1(2017EN)" />
     <name value="HCIM IllnessPerception-v3.1(2017EN)" />
   </mapping>
@@ -40,7 +35,7 @@
       <short value="IllnessPerception" />
       <alias value="Ziektebeleving" />
       <mapping>
-        <identity value="hcim-IllnessPerception-v3.1-2017EN" />
+        <identity value="hcim-illnessperception-v3.1-2017EN" />
         <map value="NL-CM:18.5.1" />
         <comment value="IllnessPerception" />
       </mapping>
@@ -100,11 +95,13 @@
     <element id="Observation.component:PatientIllnessInsight">
       <path value="Observation.component" />
       <sliceName value="PatientIllnessInsight" />
-      <short value="Patient Illness Insight" />
+      <short value="PatientIllnessInsight" />
       <definition value="The patient’s illness insight describes their awareness of having an illness or health problem and what that means for their daily life." />
+      <alias value="ZiekteInzichtVanPatiënt" />
       <mapping>
-        <identity value="hcim-IllnessPerception-v3.1-2017EN" />
+        <identity value="hcim-illnessperception-v3.1-2017EN" />
         <map value="NL-CM:18.5.3" />
+        <comment value="PatientIllnessInsight" />
       </mapping>
     </element>
     <element id="Observation.component:PatientIllnessInsight.code">
@@ -133,10 +130,11 @@
     <element id="Observation.component:CopingWithIllnessByPatient">
       <path value="Observation.component" />
       <sliceName value="CopingWithIllnessByPatient" />
-      <short value="Coping With Illness By Patient" />
+      <short value="CopingWithIllnessByPatient" />
       <definition value="The description of how the patient deals with their illness or health problem." />
+      <alias value="OmgaanMetZiekteprocesDoorPatiënt" />
       <mapping>
-        <identity value="hcim-IllnessPerception-v3.1-2017EN" />
+        <identity value="hcim-illnessperception-v3.1-2017EN" />
         <map value="NL-CM:18.5.4" />
         <comment value="CopingWithIllnessByPatient" />
       </mapping>
@@ -160,10 +158,11 @@
     <element id="Observation.component:CopingWithIllnessByFamily">
       <path value="Observation.component" />
       <sliceName value="CopingWithIllnessByFamily" />
-      <short value="Coping With Illness By Family" />
+      <short value="CopingWithIllnessByFamily" />
       <definition value="The description of how the family deals with the patient’s illness or health problem." />
+      <alias value="OmgaanMetZiekteprocesDoorNaasten" />
       <mapping>
-        <identity value="hcim-IllnessPerception-v3.1-2017EN" />
+        <identity value="hcim-illnessperception-v3.1-2017EN" />
         <map value="NL-CM:18.5.5" />
         <comment value="CopingWithIllnessByFamily" />
       </mapping>
