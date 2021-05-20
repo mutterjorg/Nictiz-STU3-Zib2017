@@ -27,6 +27,7 @@
     <identity value="hcim-dispense-v1.0-2017EN" />
     <uri value="https://zibs.nl/wiki/Dispense-v1.0(2017EN)" />
     <name value="HCIM Dispense-v1.0(2017EN)" />
+    <comment value="This HCIM has been replaced with MedicationDispense-v2.0(2017EN) that only changes the HCIM name. This mapping is added becasue the old name is mostly used throughout the implementation guides."/>
   </mapping>
   <mapping>
     <identity value="Medication-Process-v09" />
