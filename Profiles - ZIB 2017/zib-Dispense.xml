@@ -24,6 +24,11 @@
     <name value="HCIM MedicationDispense-v2.0(2017EN)" />
   </mapping>
   <mapping>
+    <identity value="hcim-dispense-v1.0-2017EN" />
+    <uri value="https://zibs.nl/wiki/Dispense-v1.0(2017EN)" />
+    <name value="HCIM Dispense-v1.0(2017EN)" />
+  </mapping>
+  <mapping>
     <identity value="Medication-Process-v09" />
     <uri value="https://decor.nictiz.nl/medicatieproces/mp-html-20181220T121121/ds-2.16.840.1.113883.2.4.3.11.60.20.77.1.3-2016-06-01T000000.html" />
     <name value="Medication Process v09" />
@@ -46,6 +51,11 @@
       <alias value="Verstrekking" />
       <mapping>
         <identity value="hcim-medicationdispense-v2.0-2017EN" />
+        <map value="NL-CM:9.9.20270" />
+        <comment value="MedicationDispense" />
+      </mapping>
+      <mapping>
+        <identity value="hcim-dispense-v1.0-2017EN" />
         <map value="NL-CM:9.9.20270" />
         <comment value="MedicationDispense" />
       </mapping>
@@ -77,6 +87,11 @@
         <map value="NL-CM:9.9.20927" />
         <comment value="DistributionForm" />
       </mapping>
+      <mapping>
+        <identity value="hcim-dispense-v1.0-2017EN" />
+        <map value="NL-CM:9.9.20270" />
+        <comment value="DistributionForm" />
+      </mapping>
     </element>
     <element id="MedicationDispense.extension:distributionForm.valueCodeableConcept:valueCodeableConcept">
       <path value="MedicationDispense.extension.valueCodeableConcept" />
@@ -106,6 +121,11 @@
         <map value="NL-CM:9.9.2250" />
         <comment value="RequestDate" />
       </mapping>
+      <mapping>
+        <identity value="hcim-dispense-v1.0-2017EN" />
+        <map value="NL-CM:9.9.20270" />
+        <comment value="RequestDate" />
+      </mapping>
     </element>
     <element id="MedicationDispense.extension:additionalInformation">
       <path value="MedicationDispense.extension" />
@@ -121,6 +141,11 @@
       <mapping>
         <identity value="hcim-medicationdispense-v2.0-2017EN" />
         <map value="NL-CM:9.9.23285" />
+        <comment value="MedicationDispenseAdditionalInformation" />
+      </mapping>
+      <mapping>
+        <identity value="hcim-dispense-v1.0-2017EN" />
+        <map value="NL-CM:9.9.20270" />
         <comment value="MedicationDispenseAdditionalInformation" />
       </mapping>
     </element>
@@ -230,6 +255,11 @@
         <map value="NL-CM:9.9.22259" />
         <comment value="DispensedMedicine" />
       </mapping>
+      <mapping>
+        <identity value="hcim-dispense-v1.0-2017EN" />
+        <map value="NL-CM:9.9.20270" />
+        <comment value="DispensedMedicine" />
+      </mapping>
     </element>
     <element id="MedicationDispense.subject">
       <path value="MedicationDispense.subject" />
@@ -266,6 +296,11 @@
       <mapping>
         <identity value="hcim-medicationdispense-v2.0-2017EN" />
         <map value="NL-CM:9.9.20858" />
+        <comment value="Supplier" />
+      </mapping>
+      <mapping>
+        <identity value="hcim-dispense-v1.0-2017EN" />
+        <map value="NL-CM:9.9.20270" />
         <comment value="Supplier" />
       </mapping>
       <mapping>
@@ -339,6 +374,11 @@
         <map value="NL-CM:9.9.22396" />
         <comment value="DispenseRequest" />
       </mapping>
+      <mapping>
+        <identity value="hcim-medicationdispense-v2.0-2017EN" />
+        <map value="NL-CM:9.9.20270" />
+        <comment value="DispenseRequest" />
+      </mapping>
     </element>
     <element id="MedicationDispense.quantity">
       <path value="MedicationDispense.quantity" />
@@ -350,6 +390,11 @@
         <map value="NL-CM:9.9.20923" />
         <comment value="DispensedAmount" />
       </mapping>
+      <mapping>
+        <identity value="hcim-medicationdispense-v2.0-2017EN" />
+        <map value="NL-CM:9.9.20270" />
+        <comment value="DispensedAmount" />
+      </mapping>
     </element>
     <element id="MedicationDispense.daysSupply">
       <path value="MedicationDispense.daysSupply" />
@@ -359,6 +404,11 @@
       <mapping>
         <identity value="hcim-medicationdispense-v2.0-2017EN" />
         <map value="NL-CM:9.9.20924" />
+        <comment value="DurationOfUse" />
+      </mapping>
+      <mapping>
+        <identity value="hcim-medicationdispense-v2.0-2017EN" />
+        <map value="NL-CM:9.9.20270" />
         <comment value="DurationOfUse" />
       </mapping>
     </element>
@@ -375,6 +425,11 @@
         <identity value="hcim-medicationdispense-v2.0-2017EN" />
         <map value="NL-CM:9.9.20272" />
         <comment value="MedicationDispenseDateTime" />
+      </mapping>
+      <mapping>
+        <identity value="hcim-medicationdispense-v2.0-2017EN" />
+        <map value="NL-CM:9.9.20270" />
+        <comment value="MedicationDispense" />
       </mapping>
       <mapping>
         <identity value="hcim-basicelements-v1.0-2017EN" />
@@ -394,6 +449,11 @@
       <mapping>
         <identity value="hcim-medicationdispense-v2.0-2017EN" />
         <map value="NL-CM:9.9.20925" />
+        <comment value="DispenseLocation. Use Location.name." />
+      </mapping>
+      <mapping>
+        <identity value="hcim-medicationdispense-v2.0-2017EN" />
+        <map value="NL-CM:9.9.20270" />
         <comment value="DispenseLocation. Use Location.name." />
       </mapping>
     </element>
@@ -436,6 +496,11 @@
       <mapping>
         <identity value="hcim-medicationdispense-v2.0-2017EN" />
         <map value="NL-CM:9.9.22276" />
+        <comment value="Comment" />
+      </mapping>
+      <mapping>
+        <identity value="hcim-medicationdispense-v2.0-2017EN" />
+        <map value="NL-CM:9.9.20270" />
         <comment value="Comment" />
       </mapping>
     </element>
